@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(1.jfif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Google Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.212);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 90vh;
+  width: 40%;
+}
+
+.box1 {
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box2 {
+  border-radius: 16px;
+}
+
+.img {
+  width: 100%;
+}
+
+.input_box {
+  padding: 2rem;
+  margin-top: 10rem;
+  height: 80%;
+  overflow: hidden;
+  width: 55%;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.text {
+  color: #0000008c;
+  font-size: 20px;
+  margin: 1rem 0rem 2rem 0rem;
+}
+
+.log {
+  padding: 5px 10px;
+}
+
+.log a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.log a:hover {
+  border: 1px solid rgba(255, 255, 255, 0.671);
+  border-radius: 10px;
+  padding: 4px 9px;
+  box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.37);
+}
+
+.a1 {
+  color: black;
+  margin: 0 1rem 0 0;
+  font-size: 20px;
+}
+
+.input {
+  display: block;
+  height: 4rem;
+  border-radius: 55px;
+  border: none;
+  margin: 2rem 0;
+  padding: 3px 0 0 25px;
+  width: 15rem;
+}
+
+.input::placeholder {
+  color: gray;
+  font-size: 16px;
+  font-family: "Google Sans", sans-serif;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #3bf0a8;
+  width: 7rem;
+  height: 2.5rem;
+  border-radius: 8px;
+  border: none;
+  margin-right: 2rem;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btn:hover {
+  transition: 0.3s;
+  box-shadow: 2px 2px 10px rgb(255, 255, 255);
+  color: white;
+}
+
+.forget {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 5px 10px;
+  width: 4rem;
+  height: 1.5rem;
+  display: inline-flex;
+}
+
+.forget:hover {
+  transition: 0.3s;
+  color: black;
+  background: rgba(255, 255, 255, 0.212);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
